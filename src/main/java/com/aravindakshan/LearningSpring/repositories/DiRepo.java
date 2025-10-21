@@ -2,7 +2,7 @@ package com.aravindakshan.LearningSpring.repositories;
 
 import com.aravindakshan.LearningSpring.database.DIDataStore;
 
-public class DiRepo {
+public class DiRepo implements Repo {
     private final DIDataStore store;
 
     public DiRepo(DIDataStore store) {
