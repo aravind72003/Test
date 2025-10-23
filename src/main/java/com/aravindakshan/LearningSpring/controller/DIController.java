@@ -1,7 +1,9 @@
 package com.aravindakshan.LearningSpring.controller;
 
 import com.aravindakshan.LearningSpring.service.DiService;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DIController {
 
     private DiService service;

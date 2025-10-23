@@ -1,9 +1,12 @@
 package com.aravindakshan.LearningSpring.repositories;
 
 import com.aravindakshan.LearningSpring.database.DIDataStore;
+import com.aravindakshan.LearningSpring.database.DataStore;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DiRepo implements Repo {
-    private final DIDataStore store;
+    private DataStore store;
 
     public DiRepo(DIDataStore store) {
         this.store = store;

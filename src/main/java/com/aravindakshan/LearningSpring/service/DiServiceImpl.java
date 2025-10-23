@@ -1,7 +1,9 @@
 package com.aravindakshan.LearningSpring.service;
 
 import com.aravindakshan.LearningSpring.repositories.Repo;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DiServiceImpl implements DiService{
     private Repo repo;
 
